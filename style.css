@@ -41,11 +41,38 @@ html,body {
 } 
 .main2 {
     display: flex;
-    justify-content: space-evenly;
+    /* flex-direction: center; */
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 8vh;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: grey;
+}
+.div2{
+    display: flex;
+    justify-content: flex-starts;
+    width: 20%;
+}
+.div3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+
+}
+.input-search{
+    width: 70%;
+    height: 52px;
+    padding-left: 20px;
+    font-family: Manrope;
+    font-size: 16px;
+    border: rgb(0,0,0,5) black;
+    border-radius: 6px;
+    align-self: center;
+    background-image: url(imges/magnifying-glass-solid.svg);
+    background-repeat: no-repeat;
+    background-position: 135% 50%;
+    background-size: 50% 50%;
+    
 }
