@@ -183,26 +183,79 @@ html,body {
     font-size: 18px;
     margin-right: 10px;
 }
+/* <!-- Product Categories --> */
 .products {
     width: 100%;
     height: 20vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: bisque;
     padding: 0px 30px 0px 30px;
 }
-.prod-div{
+.prod-div {
+    position: relative;
     width: 16%;
     height: 18vh;
     display: flex;
     justify-content: center;
-    border: 2px solid black;
     padding: 10px;
+    background-image: linear-gradient(rgba(255, 192, 203, 0.404),white);
 }
-.box-one{
+.box-one {
+    position: relative;
     width: 90%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     background-color: white;
+}
+.thirty {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #5CAF90;
+    height: 25px;
+    width: 60px;
+}
+.thirty, h4 {
+    color: #f8f8fb;
+}
+/* PRODUCT SHOWCASING */
+.Product-list {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px 0px 30px;
+}
+.Product-heading {
+    width: 50%;
+}
+.countdown {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    height: 20vh;
+
+}
+.count {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.Product-heading,h2 {
+    font-size: 40px;
+}
+.Product-heading,p {
+    font-size: 18px;
+}
+
+.Product-details {
+    width: 100%;
+    height: 60vh;
+    background-color: #5CAF90;
+    padding: 0px 30px 0px 30px;
 }
